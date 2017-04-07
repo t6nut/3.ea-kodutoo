@@ -7,8 +7,7 @@ console.log("loaded extension!");
     google.load('search', '1');
     google.setOnLoadCallback(OnLoad);
     var search;
-
-
+    var keyword = "meow";
 
     function OnLoad()
     {
