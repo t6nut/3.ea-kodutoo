@@ -1,9 +1,5 @@
 console.log("loaded extension!");
-<html>
-<head>
-    <title></title>
-    <script src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript">
+
     google.load('search', '1');
     google.setOnLoadCallback(OnLoad);
     var search;
@@ -27,9 +23,3 @@ console.log("loaded extension!");
             document.body.style.backgroundImage = "url('" + search.results[rnd]['url'] + "')";
         }
     }
-    </script>
-</head>
-<body>
-
-</body>
-</html>
