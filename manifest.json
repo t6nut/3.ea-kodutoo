@@ -1,6 +1,6 @@
 {
-  "name": "Page Redder",
-  "description": "Make the current page red",
+  "name": "page cooler",
+  "description": "randomize the look of any webpage",
   "version": "2.0",
   "permissions": [
     "activeTab"
@@ -10,7 +10,7 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "Make this page red"
+    "default_title": "page cooler"
   },
   "manifest_version": 2
 }
