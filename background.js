@@ -1,4 +1,4 @@
-  chrome.browserAction.onClicked.addListener(function(tab) {
+chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
   /*var items = ["normal","italic","oblique","initial","inherit"];
   var item = items[Math.floor(Math.random()*items.length)];
@@ -22,3 +22,23 @@
   }
   colorLinks("'" + randomColor + "'");*/
 });
+/*colorLinks("#555586");
+
+function colorLinks(hex)
+{
+    var links = document.getElementsByTagName("a");
+    for(var i=0;i<links.length;i++)
+    {
+        if(links[i].href)
+        {
+            links[i].style.color = hex;
+        }
+    }
+}
+/*document.getElementById('btn').onclick = function() {
+            var val = document.getElementById('imagename').value,
+                src = 'http://webpage.com/images/' + val +'.png',
+                img = document.createElement('img');
+
+            img.src = src;
+            document.body.appendChild(img);*/

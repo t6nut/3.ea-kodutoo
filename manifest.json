@@ -12,7 +12,6 @@
   "browser_action": {
     "default_title": "Style Randomizer",
     "default_icon" : "icon.png"
-
   },
   "manifest_version": 2
 }
